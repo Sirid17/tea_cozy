@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+
+  position: fixed;
+  height: 69px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
