@@ -8,12 +8,31 @@ body {
 }
 
 header {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
   position: fixed;
   height: 69px;
+  border-bottom: solid seashell;
+  
 }
 
 header img {
   height: 50px;
   padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span a {
+  display: inline-flex;
+  color: seashell;
+  padding: 20px 10px;
+  text-decoration: underline;
+  
 }
